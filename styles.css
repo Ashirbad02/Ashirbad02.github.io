@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.sidebar{
+   
+    background-image: linear-gradient(to bottom right,Indigo,Cyan);
+    color: white;
+    height: 150vh;
+    transition: transform 0.3s ease-in;
+    
+    
+
+}
+.sidebar nav{
+    padding: 5px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-family: 'Arima', cursive;
+    font-size:30px;
+    padding: 35px;
+}
+.sidebar nav li a{
+    text-decoration: none ;
+    color: aliceblue;
+
+}
+.main{
+    background-color: white;
+    width: 80vw;
+}
+.container{
+    display:flex;
+}
+.infoContainer{
+    background-color: white;
+    height: 60vh;
+    width: 70vw;
+    margin:144px auto;
+    display:flex;
+
+    justify-content: space-around;
+
+}
+.info{
+   
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+}
+.hi{
+    font-family: 'The Nautigal', cursive;
+    font-size: 70px;
+    font-weight: bold;
+    color: blue;
+}
+.nice{
+    font-family: 'The Nautigal', cursive;
+    font-size: 70px;
+    color: aqua;
+
+}
+
+.welcome{
+    margin-top: 25px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size:20px;
+    color: black;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    border-style: dashed;
+    color: aliceblue;
+    background-image: linear-gradient(to bottom right,indigo,cyan);
+    
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 3 px;
+    cursor:pointer;
+}
+
+.btn-sm{
+    padding: 9px 14px;
+    border-radius: 22px;
+    border-style: dashed;
+    color: aliceblue;
+    background-image: linear-gradient(to bottom right,indigo,cyan);
+    
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 3 px;
+    cursor:pointer;
+}
+
+
+.btn:hover{
+    background-image: none;
+    color: blue;
+}
+.picture img{
+    height: 60vh;
+   
+
+  
+}
+.contactform h1{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px ;
+    font-family: 'Arima', cursive;
+    font-size: 28px;
+
+}
+.contactform form div{
+    padding: 11px  0;
+    display:flex;
+    flex-direction: column;
+
+}
+.contactform form div input{
+    width:50vw;
+    border-radius: 6px;
+    margin: 0;
+    padding: 3px;
+   
+
+}
+
+.Messages input{
+    width:50vw;
+    height:25vh;
+    border-radius: 6px;
+    margin: 0;
+    padding: 3px;
+   
+
+}
+#emailHelp{
+    font-size: 10px;
+    color: black;
+    margin:0px;
+
+}
+.blogintro{
+    font-family: 'The Nautigal', cursive;
+    font-size: 50px;
+    color: black;
+    flex-direction: column;
+    text-align: center;   
+}
+.flexible{
+    display: flex;
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 20vw;
+border-radius: 5px;
+margin:7px;
+}
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.image img {
+border-radius: 10px 10px 0 0;
+height: 40vh;
+width: 20vw;
+}
+.card1 {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 20vw;
+border-radius: 5px;
+margin:7px;
+}
+.card1:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.image1 img {
+border-radius: 10px 10px 0 0;
+height: 40vh;
+width: 20vw;
+}
+.card2{
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 13vw;
+border-radius: 5px;
+margin:7px;
+}
+.card2:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.image2 img {
+border-radius: 10px 10px 0 0;
+height: 40vh;
+width: 12.5vw;
+}
+.card3{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20vw;
+    border-radius: 5px;
+    margin:7px;
+    }
+.card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+.image3 img {
+    border-radius: 10px 10px 0 0;
+    height: 40vh;
+    width: 20vw;
+    }
+
+.flexible2{
+    display: flex;
+}
+.card4{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 13vw;
+    border-radius: 5px;
+    margin:7px;
+    }
+.card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+.image4 img {
+    border-radius: 10px 10px 0 0;
+    height: 40vh;
+    width: 12.5vw;
+    }
+
+.card5{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 23.5vw;
+        border-radius: 5px;
+        margin:7px;
+        height:38vh;
+        }
+.card5:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+.image5 img {
+        border-radius: 10px 10px 0 0;
+        height: 36vh;
+        width: 23vw;
+        }
+.card6{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 23vw;
+            border-radius: 5px;
+            margin:7px;
+            height:33.3vh;
+            
+            }
+.card6:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+.image6 img {
+            border-radius: 10px 10px 0 0;
+            height: 31.5vh;
+            width: 22vw;
+            }
+
+ .card7{
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                width: 13vw;
+                border-radius: 5px;
+                margin:7px;
+                }
+.card7:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                }
+.image7 img {
+                border-radius: 10px 10px 0 0;
+                height: 40vh;
+                width: 12.5vw;
+                }
+.flexible3{
+    display:flex;
+}
+.card8{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 13vw;
+    border-radius: 5px;
+    margin:7px;
+    }
+.card8:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+.image8 img {
+    border-radius: 10px 10px 0 0;
+    height: 40vh;
+    width: 12.5vw;
+    }
+
+.card9{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 20vw;
+        border-radius: 5px;
+        margin:7px;
+        }
+.card9:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+.image9 img {
+        border-radius: 10px 10px 0 0;
+        height: 40vh;
+        width: 20vw;
+        }
+ .card10{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 23vw;
+            border-radius: 5px;
+            margin:7px;
+            height:33.3vh;
+            
+            }
+.card10:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+.image10 img {
+            border-radius: 10px 10px 0 0;
+            height: 31.5vh;
+            width: 22vw;
+            }
+.card11{
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                width: 13vw;
+                border-radius: 5px;
+                margin:7px;
+                }
+.card11:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                }
+.image11 img {
+                border-radius: 10px 10px 0 0;
+                height: 40vh;
+                width: 12.5vw;
+                }
+.infoContainer1{
+                    background-color: white;
+                    height: 60vh;
+                    width: 70vw;
+                    margin:144px auto;
+                    display:flex;
+                
+                    justify-content: space-around;
+                
+                }
+.About{
+    margin-top: 65.5px;
+    font-size: 20px;
+    font-family: 'Arima', cursive ;
+    color: black;
+
+}
+.picture1 img{
+    height: 60vh;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   
+  
+}
+
+
+.Educationcontainer{
+    margin: 144px auto;
+    font-size: 50px;
+    font-family: 'The Nautigal', cursive;
+    color: black;
+    font-weight: bold;
+}
+
+.educationflexible1{
+    display:flex;
+}
+.educationcard1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25vw;
+    border-radius: 5px;
+    margin-left:50px;
+    height: 57vh;
+    }
+.educationcard1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+.schoolimage1 img {
+    border-radius: 10px 10px 0 0;
+    height: 35vh;
+    width: 25vw;
+    }
+.educationcard2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25vw;
+    border-radius: 5px;
+    margin-left:50px;
+    height: 57vh;
+    }
+.educationcard2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+.schoolimage2 img {
+    border-radius: 10px 10px 0 0;
+    height: 35vh;
+    width: 25vw;
+    }
+ .educationcard3{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 25vw;
+        border-radius: 5px;
+        margin-left: 50px;
+        height: 57vh;
+        }
+.educationcard3:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+.schoolimage3 img {
+        border-radius: 10px 10px 0 0;
+        height: 35vh;
+        width: 25vw;
+        }
+.educationflexible2{
+    display: flex;
+}
+
+.studycontainer{
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+}
+.skillsbox{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 20px;
+    padding:12px;
+    font-weight: lighter;
+}
+.htmlskill{
+    width:230px;
+    height:5px;
+    background-image: linear-gradient(to right ,indigo,cyan);
+
+
+
+}
+.phpskill{
+    width:210px;
+    height:5px;
+    background-image: linear-gradient(to right ,orange,yellow);
+    
+
+
+}
+.cssskill{
+    width:260px;
+    height:5px;
+    background-image: linear-gradient(to right ,green,lime);
+    
+
+
+}
+.javascriptskill{
+    width:150px;
+    height:5px;
+    background-image: linear-gradient(to right ,rgb(46, 1, 46),pink);
+    
+
+
+}
+.sqlskill{
+    width:280px;
+    height:5px;
+    background-image: linear-gradient(to right ,red,rgb(177, 127, 127));
+    
+
+
+}
+
+.cskill{
+    width:275px;
+    height:5px;
+    background-image: linear-gradient(to right ,rgb(49, 33, 4),rgb(114, 101, 77));
+    
+
+
+}
+.pythonskill{
+    width:200px;
+    height:5px;
+    background-image: linear-gradient(to right ,black,grey);
+    
+
+
+}
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+}
+
+.cross{
+    margin-left: 155px;
+    margin-top: 10px;
+}
+.connectme{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    margin-top: 93.5vh;
+    margin-left: 35px;
+
+   
+}
+.facebook{
+    margin-left: 10px;
+}
+
+.insta{
+    
+    margin-left: 10px;
+}
+
+.github{
+    
+    margin-left: 10px;
+}
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+
+
+.copyright{
+    bottom: 0;
+    text-align: center;
+}

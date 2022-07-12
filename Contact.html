@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashirwad Portfolio  </title>
+</head>
+<link rel="stylesheet" href="styles.css">
+
+<body>
+<div class="container">
+    <div class="sidebar sidebarGo">
+        <nav>
+            <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="/about.html">About Me</a></li>
+                <li><a href="/education.html">Education</a></li>
+                <li><a href="/My diary.html">My Diary</a></li>
+                <li><a href="/Contact.html">Contact me</a></li>
+
+    
+            </ul>
+          </nav>
+    </div>
+    <div class="main">
+      <div class="hamburger">
+        <img class="ham" src="hamburger.png" alt="" width="23">
+        <img class="cross" src="cross.png" alt="" width="23">
+      </div>
+
+      <div class="connectme">
+        <a href="https://www.facebook.com/ashirbad.dutta.988" target="_blank">
+        <img class="facebook" src="facebook.png" alt="" width="30"></a>
+        <a href="https://www.instagram.com/ashirbaddutta02/" target="_blank">
+        <img class="insta" src="insta.png" alt="" width="30"></a>
+        <a href="https://github.com/Ashirbad02" target="_blank">
+        <img class="github" src="github.png" alt="" width="30">
+        </a>
+        
+      </div>
+
+      
+        <div class="contactform">
+            <h1>Contact me/Send me a message</h1>
+            <form id="contact-form">
+                <div class="Mail">
+                  <label for="clientemail" class="form-label">Your Email address</label>
+                  <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Your email is not shared to anyone except me !</div>
+                </div>
+                <div class="Messages">
+                  <label for="Message" class="form-label">Message</label>
+                  <input type="text" class="form-control" id="Message">
+                </div>
+                <button type="submit" class="btn btn-sm" value="Send">Submit</button>
+              </form>
+        </div>
+    
+    </div>
+    
+</div>
+
+    
+<script src="script.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('lrXbRgxWW49sPR_nf');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+
+
+</body>
+</html>
+
+  
